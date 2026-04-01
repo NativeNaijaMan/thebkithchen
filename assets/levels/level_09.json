@@ -1,0 +1,12 @@
+{
+  "id": "level_09",
+  "name": "Grilled Cheese",
+  "recipeRequest": "Grilled Cheese Sandwich",
+  "objectiveText": "Find the frying pan, bread, cheese, butter, and stove. Get at least 3 right!",
+  "gridSize": 5,
+  "memorizeSeconds": 3.5,
+  "timerSeconds": 22.0,
+  "correctItemIds": ["frying_pan", "bread", "cheese", "butter", "stove"],
+  "distractorItemIds": ["pot", "knife", "plate", "egg", "spatula", "bowl", "salt", "water", "oil", "whisk", "onion", "tomato", "colander", "oven_mitt", "rolling_pin", "ladle", "flour", "sugar", "milk", "cutting_board"],
+  "minCorrectThreshold": 3
+}

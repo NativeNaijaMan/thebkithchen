@@ -1,0 +1,12 @@
+{
+  "id": "level_13",
+  "name": "Bake a Cake",
+  "recipeRequest": "Bake a Cake",
+  "objectiveText": "Find bowl, flour, egg, sugar, butter, oven. Get at least 4 right!",
+  "gridSize": 6,
+  "memorizeSeconds": 2.5,
+  "timerSeconds": 18.0,
+  "correctItemIds": ["bowl", "flour", "egg", "sugar", "butter", "oven"],
+  "distractorItemIds": ["frying_pan", "pot", "knife", "plate", "bread", "spatula", "salt", "water", "cheese", "oil", "whisk", "onion", "tomato", "colander", "oven_mitt", "rolling_pin", "ladle", "milk", "cutting_board", "pepper", "lettuce", "chicken", "pasta", "stove", "toaster", "microwave"],
+  "minCorrectThreshold": 4
+}

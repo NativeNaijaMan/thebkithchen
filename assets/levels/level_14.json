@@ -1,0 +1,12 @@
+{
+  "id": "level_14",
+  "name": "Pancake Stack",
+  "recipeRequest": "Make Pancakes",
+  "objectiveText": "Find frying pan, flour, egg, milk, butter, stove. Get at least 4 right!",
+  "gridSize": 6,
+  "memorizeSeconds": 2.5,
+  "timerSeconds": 17.0,
+  "correctItemIds": ["frying_pan", "flour", "egg", "milk", "butter", "stove"],
+  "distractorItemIds": ["pot", "knife", "plate", "bread", "spatula", "bowl", "salt", "water", "cheese", "oil", "whisk", "onion", "tomato", "colander", "oven_mitt", "rolling_pin", "ladle", "sugar", "cutting_board", "pepper", "lettuce", "chicken", "pasta", "oven", "toaster", "microwave"],
+  "minCorrectThreshold": 4
+}

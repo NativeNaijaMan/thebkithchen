@@ -1,0 +1,85 @@
+name: Build Signed APK & AAB
+
+on:
+  push:
+    branches:
+      - "**"
+
+concurrency:
+  group: build-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  JAVA_VERSION: "17"
+  FLUTTER_CHANNEL: stable
+
+jobs:
+  build:
+    name: Build Release Artifacts
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Java ${{ env.JAVA_VERSION }}
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: ${{ env.JAVA_VERSION }}
+          cache: gradle
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: ${{ env.FLUTTER_CHANNEL }}
+          cache: true
+
+      - name: Install dependencies
+        run: flutter pub get
+
+      - name: Decode keystore from secrets
+        env:
+          KEYSTORE_BASE64: ${{ secrets.TheBrokenKitchenBase64 }}
+        run: |
+          echo "${KEYSTORE_BASE64}" | base64 --decode > "${GITHUB_WORKSPACE}/android/app/release-keystore.jks"
+
+      - name: Create key.properties
+        env:
+          STORE_PASSWORD: ${{ secrets.TheBrokenKitchenStorePassword }}
+          KEY_ALIAS: ${{ secrets.TheBrokenKitchenKeyAlias }}
+          KEY_PASSWORD: ${{ secrets.TheBrokenKitchenKeyPassword }}
+        run: |
+          cat <<EOF > "${GITHUB_WORKSPACE}/android/key.properties"
+          storeFile=release-keystore.jks
+          storePassword=${STORE_PASSWORD}
+          keyAlias=${KEY_ALIAS}
+          keyPassword=${KEY_PASSWORD}
+          EOF
+
+      - name: Build signed APK
+        run: flutter build apk --release
+
+      - name: Build signed AAB
+        run: flutter build appbundle --release
+
+      - name: Delete keystore and key.properties
+        if: always()
+        run: |
+          rm -f "${GITHUB_WORKSPACE}/android/app/release-keystore.jks"
+          rm -f "${GITHUB_WORKSPACE}/android/key.properties"
+
+      - name: Upload APK artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-apk
+          path: build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
+
+      - name: Upload AAB artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: release-aab
+          path: build/app/outputs/bundle/release/app-release.aab
+          if-no-files-found: error

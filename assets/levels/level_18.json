@@ -1,0 +1,12 @@
+{
+  "id": "level_18",
+  "name": "Chicken Soup",
+  "recipeRequest": "Make Chicken Soup",
+  "objectiveText": "Find pot, chicken, water, stove, onion, salt, ladle. Get at least 5 right!",
+  "gridSize": 7,
+  "memorizeSeconds": 2.0,
+  "timerSeconds": 13.0,
+  "correctItemIds": ["pot", "chicken", "water", "stove", "onion", "salt", "ladle"],
+  "distractorItemIds": ["frying_pan", "egg", "knife", "plate", "bread", "butter", "spatula", "bowl", "cheese", "oil", "whisk", "tomato", "colander", "oven_mitt", "rolling_pin", "flour", "sugar", "milk", "cutting_board", "pepper", "lettuce", "pasta", "oven", "toaster", "microwave"],
+  "minCorrectThreshold": 5
+}

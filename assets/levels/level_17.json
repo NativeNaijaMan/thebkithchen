@@ -1,0 +1,12 @@
+{
+  "id": "level_17",
+  "name": "Chef's Salad",
+  "recipeRequest": "Chef's Salad with Chicken",
+  "objectiveText": "Find knife, cutting board, lettuce, tomato, chicken, bowl. Get at least 4 right!",
+  "gridSize": 7,
+  "memorizeSeconds": 2.0,
+  "timerSeconds": 14.0,
+  "correctItemIds": ["knife", "cutting_board", "lettuce", "tomato", "chicken", "bowl"],
+  "distractorItemIds": ["frying_pan", "egg", "pot", "plate", "bread", "butter", "spatula", "salt", "water", "cheese", "oil", "whisk", "onion", "colander", "oven_mitt", "rolling_pin", "ladle", "flour", "sugar", "milk", "pepper", "pasta", "stove", "oven", "toaster", "microwave"],
+  "minCorrectThreshold": 4
+}

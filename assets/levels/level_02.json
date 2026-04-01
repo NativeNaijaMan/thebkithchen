@@ -1,0 +1,12 @@
+{
+  "id": "level_02",
+  "name": "Boil Water",
+  "recipeRequest": "Boil Water",
+  "objectiveText": "Find the pot, water, and stove. Get at least 2 right!",
+  "gridSize": 3,
+  "memorizeSeconds": 5.0,
+  "timerSeconds": 30.0,
+  "correctItemIds": ["pot", "water", "stove"],
+  "distractorItemIds": ["frying_pan", "egg", "knife", "plate", "butter", "bread"],
+  "minCorrectThreshold": 2
+}

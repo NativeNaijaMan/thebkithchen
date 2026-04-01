@@ -1,0 +1,12 @@
+{
+  "id": "level_20",
+  "name": "Grand Feast",
+  "recipeRequest": "Prepare the Grand Feast",
+  "objectiveText": "Find frying pan, pot, oven, chicken, pasta, egg, butter, stove. Get at least 6 right!",
+  "gridSize": 7,
+  "memorizeSeconds": 1.5,
+  "timerSeconds": 12.0,
+  "correctItemIds": ["frying_pan", "pot", "oven", "chicken", "pasta", "egg", "butter", "stove"],
+  "distractorItemIds": ["knife", "plate", "bread", "spatula", "bowl", "salt", "water", "cheese", "oil", "whisk", "onion", "tomato", "colander", "oven_mitt", "rolling_pin", "ladle", "flour", "sugar", "milk", "cutting_board", "pepper", "lettuce", "toaster", "microwave"],
+  "minCorrectThreshold": 6
+}

@@ -1,0 +1,134 @@
+# =============================================================================
+# Miscellaneous
+# =============================================================================
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.build/
+.buildlog/
+.history
+.svn/
+.swiftpm/
+migrate_working_dir/
+Thumbs.db
+*.tmp
+*.bak
+*.orig
+
+# =============================================================================
+# IDE / Editor
+# =============================================================================
+# IntelliJ / Android Studio
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# VS Code / Cursor
+.vscode/
+.cursor/
+
+# =============================================================================
+# Flutter / Dart / Pub
+# =============================================================================
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+pubspec.lock
+/build/
+/coverage/
+
+# Generated iOS Flutter files (contain local machine paths)
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Flutter/ephemeral/
+**/ios/Flutter/App.framework
+**/ios/Flutter/Flutter.framework
+**/ios/Flutter/Flutter.podspec
+**/ios/Flutter/app.flx
+**/ios/Flutter/app.zip
+**/ios/Flutter/flutter_assets/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# =============================================================================
+# Android
+# =============================================================================
+# Local properties (contains local SDK paths with your username)
+**/android/local.properties
+**/android/.gradle/
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
+**/android/.cxx/
+
+# Signing keys — NEVER commit
+**/*.keystore
+**/*.jks
+**/android/key.properties
+release-keystore.jks
+
+# Keystore generation script output
+*.b64
+
+# Generated plugin registrant
+**/android/**/GeneratedPluginRegistrant.java
+
+# =============================================================================
+# iOS
+# =============================================================================
+**/ios/Pods/
+**/ios/.symlinks/
+**/ios/**/.generated/
+**/ios/Runner/GeneratedPluginRegistrant.*
+**/ios/**/xcuserdata/
+**/ios/**/*.mode1v3
+**/ios/**/*.mode2v3
+**/ios/**/*.moved-aside
+**/ios/**/*.pbxuser
+**/ios/**/*.perspectivev3
+**/ios/**/DerivedData/
+**/ios/**/*sync/
+**/ios/ServiceDefinitions.json
+**/ios/**/dgph
+
+# =============================================================================
+# Windows
+# =============================================================================
+**/windows/flutter/ephemeral/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+x64/
+x86/
+
+# =============================================================================
+# Web
+# =============================================================================
+# web build artifacts are in /build already excluded above
+
+# =============================================================================
+# Flutter crash logs (contain local paths and system info)
+# =============================================================================
+flutter_*.log
+
+# =============================================================================
+# Platform build artifacts
+# =============================================================================
+**/build/

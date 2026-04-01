@@ -1,0 +1,12 @@
+{
+  "id": "level_19",
+  "name": "Baker's Delight",
+  "recipeRequest": "Bake Fresh Bread",
+  "objectiveText": "Find bowl, flour, water, salt, sugar, oven, oven mitt. Get at least 5 right!",
+  "gridSize": 7,
+  "memorizeSeconds": 2.0,
+  "timerSeconds": 13.0,
+  "correctItemIds": ["bowl", "flour", "water", "salt", "sugar", "oven", "oven_mitt"],
+  "distractorItemIds": ["frying_pan", "egg", "pot", "knife", "plate", "bread", "butter", "spatula", "cheese", "oil", "whisk", "onion", "tomato", "colander", "rolling_pin", "ladle", "milk", "cutting_board", "pepper", "lettuce", "chicken", "pasta", "stove", "toaster", "microwave"],
+  "minCorrectThreshold": 5
+}

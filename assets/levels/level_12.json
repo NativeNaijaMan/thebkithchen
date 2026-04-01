@@ -1,0 +1,12 @@
+{
+  "id": "level_12",
+  "name": "Chicken Stir-Fry",
+  "recipeRequest": "Chicken Stir-Fry",
+  "objectiveText": "Find frying pan, chicken, oil, stove, and spatula. Get at least 3 right!",
+  "gridSize": 6,
+  "memorizeSeconds": 3.0,
+  "timerSeconds": 19.0,
+  "correctItemIds": ["frying_pan", "chicken", "oil", "stove", "spatula"],
+  "distractorItemIds": ["pot", "egg", "knife", "plate", "bread", "butter", "bowl", "salt", "water", "cheese", "whisk", "onion", "tomato", "colander", "oven_mitt", "rolling_pin", "ladle", "flour", "sugar", "milk", "cutting_board", "pepper", "lettuce", "pasta", "oven", "toaster", "microwave"],
+  "minCorrectThreshold": 3
+}

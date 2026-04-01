@@ -1,0 +1,12 @@
+{
+  "id": "level_07",
+  "name": "Garden Salad",
+  "recipeRequest": "Chop a Salad",
+  "objectiveText": "Find the knife, cutting board, lettuce, and tomato. Get at least 3 right!",
+  "gridSize": 4,
+  "memorizeSeconds": 3.5,
+  "timerSeconds": 24.0,
+  "correctItemIds": ["knife", "cutting_board", "lettuce", "tomato"],
+  "distractorItemIds": ["frying_pan", "egg", "pot", "plate", "bread", "butter", "spatula", "bowl", "salt", "water", "cheese", "oil"],
+  "minCorrectThreshold": 3
+}

@@ -1,0 +1,12 @@
+{
+  "id": "level_10",
+  "name": "Soup's On",
+  "recipeRequest": "Make Onion Soup",
+  "objectiveText": "Find the pot, onion, water, stove, and knife. Get at least 3 right!",
+  "gridSize": 5,
+  "memorizeSeconds": 3.0,
+  "timerSeconds": 20.0,
+  "correctItemIds": ["pot", "onion", "water", "stove", "knife"],
+  "distractorItemIds": ["frying_pan", "egg", "plate", "bread", "butter", "spatula", "bowl", "salt", "cheese", "oil", "whisk", "tomato", "colander", "oven_mitt", "rolling_pin", "ladle", "flour", "sugar", "milk", "cutting_board"],
+  "minCorrectThreshold": 3
+}

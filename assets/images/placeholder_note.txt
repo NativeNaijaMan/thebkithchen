@@ -1,0 +1,1 @@
+Placeholder art bucket for countertop sprites and UI chrome (Implementation Plan Phase 1).

@@ -1,0 +1,12 @@
+{
+  "id": "level_01",
+  "name": "First Shift",
+  "recipeRequest": "Fry an Egg",
+  "objectiveText": "Find the frying pan, egg, and stove. Get at least 2 right!",
+  "gridSize": 3,
+  "memorizeSeconds": 5.0,
+  "timerSeconds": 30.0,
+  "correctItemIds": ["frying_pan", "egg", "stove"],
+  "distractorItemIds": ["pot", "knife", "bowl", "plate", "butter", "bread"],
+  "minCorrectThreshold": 2
+}

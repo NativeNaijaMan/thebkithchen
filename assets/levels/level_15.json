@@ -1,0 +1,12 @@
+{
+  "id": "level_15",
+  "name": "Pasta Bolognese",
+  "recipeRequest": "Pasta Bolognese",
+  "objectiveText": "Find pot, pasta, stove, water, tomato, onion. Get at least 4 right!",
+  "gridSize": 6,
+  "memorizeSeconds": 2.5,
+  "timerSeconds": 15.0,
+  "correctItemIds": ["pot", "pasta", "stove", "water", "tomato", "onion"],
+  "distractorItemIds": ["frying_pan", "egg", "knife", "plate", "bread", "butter", "spatula", "bowl", "salt", "cheese", "oil", "whisk", "colander", "oven_mitt", "rolling_pin", "ladle", "flour", "sugar", "milk", "cutting_board", "pepper", "lettuce", "chicken", "oven", "toaster", "microwave"],
+  "minCorrectThreshold": 4
+}

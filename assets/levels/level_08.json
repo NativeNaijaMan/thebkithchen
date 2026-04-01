@@ -1,0 +1,12 @@
+{
+  "id": "level_08",
+  "name": "Scrambled Special",
+  "recipeRequest": "Scrambled Eggs on Toast",
+  "objectiveText": "Find the frying pan, egg, bread, toaster, and butter. Get at least 3 right!",
+  "gridSize": 5,
+  "memorizeSeconds": 3.5,
+  "timerSeconds": 23.0,
+  "correctItemIds": ["frying_pan", "egg", "bread", "toaster", "butter"],
+  "distractorItemIds": ["pot", "knife", "plate", "spatula", "bowl", "salt", "water", "cheese", "oil", "whisk", "stove", "onion", "tomato", "colander", "oven_mitt", "rolling_pin", "ladle", "flour", "sugar", "milk"],
+  "minCorrectThreshold": 3
+}

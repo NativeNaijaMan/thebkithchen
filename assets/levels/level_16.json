@@ -1,0 +1,12 @@
+{
+  "id": "level_16",
+  "name": "Full Breakfast",
+  "recipeRequest": "Cook a Full Breakfast",
+  "objectiveText": "Find frying pan, egg, bread, toaster, butter, stove. Get at least 4 right!",
+  "gridSize": 6,
+  "memorizeSeconds": 2.0,
+  "timerSeconds": 15.0,
+  "correctItemIds": ["frying_pan", "egg", "bread", "toaster", "butter", "stove"],
+  "distractorItemIds": ["pot", "knife", "plate", "spatula", "bowl", "salt", "water", "cheese", "oil", "whisk", "onion", "tomato", "colander", "oven_mitt", "rolling_pin", "ladle", "flour", "sugar", "milk", "cutting_board", "pepper", "lettuce", "chicken", "pasta", "oven", "microwave"],
+  "minCorrectThreshold": 4
+}

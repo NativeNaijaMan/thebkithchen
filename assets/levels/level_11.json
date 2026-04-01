@@ -1,0 +1,12 @@
+{
+  "id": "level_11",
+  "name": "Spaghetti Dinner",
+  "recipeRequest": "Cook Spaghetti with Sauce",
+  "objectiveText": "Find pot, water, stove, pasta, tomato. Get at least 3 right!",
+  "gridSize": 5,
+  "memorizeSeconds": 3.0,
+  "timerSeconds": 20.0,
+  "correctItemIds": ["pot", "water", "stove", "pasta", "tomato"],
+  "distractorItemIds": ["frying_pan", "egg", "knife", "plate", "bread", "butter", "spatula", "bowl", "salt", "cheese", "oil", "whisk", "onion", "colander", "oven_mitt", "rolling_pin", "ladle", "flour", "sugar", "milk"],
+  "minCorrectThreshold": 3
+}

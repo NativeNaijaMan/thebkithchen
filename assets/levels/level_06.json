@@ -1,0 +1,12 @@
+{
+  "id": "level_06",
+  "name": "Pasta Prep",
+  "recipeRequest": "Boil Pasta",
+  "objectiveText": "Find the pot, water, stove, and pasta. Get at least 2 right!",
+  "gridSize": 4,
+  "memorizeSeconds": 4.0,
+  "timerSeconds": 25.0,
+  "correctItemIds": ["pot", "water", "stove", "pasta"],
+  "distractorItemIds": ["frying_pan", "egg", "knife", "plate", "bread", "butter", "spatula", "bowl", "salt", "onion", "tomato", "cheese"],
+  "minCorrectThreshold": 2
+}

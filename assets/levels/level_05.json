@@ -1,0 +1,12 @@
+{
+  "id": "level_05",
+  "name": "Quick Omelette",
+  "recipeRequest": "Make an Omelette",
+  "objectiveText": "Find the frying pan, egg, cheese, and stove. Get at least 3 right!",
+  "gridSize": 4,
+  "memorizeSeconds": 4.0,
+  "timerSeconds": 25.0,
+  "correctItemIds": ["frying_pan", "egg", "cheese", "stove"],
+  "distractorItemIds": ["pot", "knife", "plate", "bread", "butter", "bowl", "salt", "water", "onion", "tomato", "spatula", "oil"],
+  "minCorrectThreshold": 3
+}

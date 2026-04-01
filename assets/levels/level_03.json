@@ -1,0 +1,12 @@
+{
+  "id": "level_03",
+  "name": "Morning Toast",
+  "recipeRequest": "Make Toast",
+  "objectiveText": "Find the bread, toaster, and butter. Get at least 2 right!",
+  "gridSize": 3,
+  "memorizeSeconds": 4.5,
+  "timerSeconds": 28.0,
+  "correctItemIds": ["bread", "toaster", "butter"],
+  "distractorItemIds": ["frying_pan", "egg", "knife", "plate", "pot", "spatula"],
+  "minCorrectThreshold": 2
+}

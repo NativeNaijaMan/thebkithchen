@@ -1,0 +1,12 @@
+{
+  "id": "level_04",
+  "name": "Buttered Eggs",
+  "recipeRequest": "Fry Buttered Eggs",
+  "objectiveText": "Find the frying pan, egg, butter, and stove. Get at least 2 right!",
+  "gridSize": 4,
+  "memorizeSeconds": 4.5,
+  "timerSeconds": 27.0,
+  "correctItemIds": ["frying_pan", "egg", "butter", "stove"],
+  "distractorItemIds": ["pot", "knife", "plate", "bread", "spatula", "bowl", "salt", "water", "onion", "tomato", "cheese", "oil"],
+  "minCorrectThreshold": 2
+}
