@@ -80,6 +80,10 @@ The workflow will:
 
 Download the artifacts from **Actions → (workflow run) → Artifacts**.
 
+### Package / key verification (Play Console)
+
+If you added `android/app/src/main/assets/adi-registration.properties` for Google’s ownership verification, use the **signed release APK** from this same workflow (not a debug build). You do not need a separate local build: download the APK artifact and upload it in the verification screen. See `documentation/PackageNameGuide.md` for file placement details.
+
 ---
 
 ## 4. Local development
